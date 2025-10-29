@@ -3,14 +3,17 @@ import { Menu } from 'lucide-react';
 export default function Topbar({ onMenuClick }) {
   return (
     <div className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6 shadow-sm fixed top-0 right-0 left-0 lg:left-64 z-40">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <button
           onClick={onMenuClick}
           className="lg:hidden text-gray-600 hover:text-gray-900 p-2"
         >
           <Menu size={24} />
         </button>
-        <span className="text-sm text-gray-600 font-medium">Coach Dashboard</span>
+        <div className="flex items-center gap-2">
+          <img src="/logo.jpg" alt="GoFast" className="h-8 w-auto" />
+          <span className="text-sm text-gray-600 font-medium">Coach Dashboard</span>
+        </div>
       </div>
       
       <div className="flex items-center gap-3">

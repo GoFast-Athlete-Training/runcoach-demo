@@ -14,8 +14,8 @@ export default function Topbar({ onMenuClick }) {
       </div>
       
       <div className="flex items-center gap-3">
-        <div className="flex items-center gap-2 px-4 py-2 bg-purple-50 rounded-lg">
-          <div className="w-8 h-8 bg-gradient-to-br from-gofast-purple to-purple-600 rounded-full flex items-center justify-center text-white font-semibold">
+        <div className="flex items-center gap-2 px-4 py-2 bg-sky-50 rounded-lg">
+          <div className="w-8 h-8 bg-gradient-to-br from-sky-500 to-sky-600 rounded-full flex items-center justify-center text-white font-semibold">
             S
           </div>
           <span className="text-sm font-medium text-gray-700">Coach Sheila</span>

@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
-import Dashboard from './pages/Dashboard';
+import RunCoachHome from './pages/RunCoachHome';
+import CoachDashboard from './pages/CoachDashboard';
 import AthleteDetail from './pages/AthleteDetail';
 import Athletes from './pages/Athletes';
 import Events from './pages/Events';
@@ -26,8 +27,9 @@ function App() {
           {/* Page Content */}
           <main className="pt-16">
             <Routes>
-              <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/" element={<Navigate to="/home" replace />} />
+              <Route path="/home" element={<RunCoachHome />} />
+              <Route path="/coach-dashboard" element={<CoachDashboard />} />
               <Route path="/athletes" element={<Athletes />} />
               <Route path="/athletes/:id" element={<AthleteDetail />} />
               <Route path="/events" element={<Events />} />

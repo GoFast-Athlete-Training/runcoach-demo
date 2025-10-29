@@ -8,8 +8,9 @@ export default {
     extend: {
       colors: {
         gofast: {
-          purple: '#2e004f',
+          blue: '#0ea5e9', // sky-500
           orange: '#ff6600',
+          'sky-blue': '#0ea5e9',
         },
       },
     },

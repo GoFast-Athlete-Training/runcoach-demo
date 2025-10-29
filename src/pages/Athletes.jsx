@@ -46,7 +46,7 @@ export default function Athletes() {
         </div>
         <button
           onClick={() => setShowInviteModal(true)}
-          className="px-6 py-3 bg-gradient-to-r from-gofast-purple to-purple-600 text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition flex items-center gap-2"
+          className="px-6 py-3 bg-gradient-to-r from-sky-500 to-sky-600 text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition flex items-center gap-2"
         >
           <Plus size={20} />
           Invite Runner
@@ -90,7 +90,7 @@ export default function Athletes() {
                   required
                   value={inviteForm.name}
                   onChange={(e) => setInviteForm({ ...inviteForm, name: e.target.value })}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gofast-purple focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
                   placeholder="John Doe"
                 />
               </div>
@@ -104,7 +104,7 @@ export default function Athletes() {
                   required
                   value={inviteForm.email}
                   onChange={(e) => setInviteForm({ ...inviteForm, email: e.target.value })}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gofast-purple focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent"
                   placeholder="john@example.com"
                 />
               </div>
@@ -119,7 +119,7 @@ export default function Athletes() {
                 </button>
                 <button
                   type="submit"
-                  className="flex-1 px-4 py-3 bg-gradient-to-r from-gofast-purple to-purple-600 text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition"
+                  className="flex-1 px-4 py-3 bg-gradient-to-r from-sky-500 to-sky-600 text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition"
                 >
                   Send Invite
                 </button>

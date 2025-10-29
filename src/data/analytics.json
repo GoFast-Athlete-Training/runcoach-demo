@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "totalMiles": 247.6,
+    "averageHeartRate": 142,
+    "activeRunners": 5,
+    "totalRuns": 165,
+    "averagePace": "8:12"
+  },
+  "weeklyData": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "mileage": [32.5, 28.8, 35.2, 31.4, 29.6, 42.1, 48.0],
+    "heartRate": [138, 142, 145, 140, 139, 148, 146],
+    "runs": [8, 7, 9, 8, 7, 12, 14]
+  }
+}
+

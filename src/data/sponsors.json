@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "RunFast Gear",
+    "logoURL": "https://ui-avatars.com/api/?name=RunFast+Gear&bold=true&size=128&background=2e004f&color=ff6600",
+    "tier": "gold",
+    "website": "https://runfastgear.com",
+    "contact": "partnerships@runfastgear.com"
+  },
+  {
+    "id": 2,
+    "name": "Endurance Nutrition",
+    "logoURL": "https://ui-avatars.com/api/?name=Endurance+Nutrition&bold=true&size=128&background=ff6600&color=fff",
+    "tier": "silver",
+    "website": "https://endurancenutrition.com",
+    "contact": "info@endurancenutrition.com"
+  },
+  {
+    "id": 3,
+    "name": "Trail Running Co",
+    "logoURL": "https://ui-avatars.com/api/?name=Trail+Running+Co&bold=true&size=128&background=6366f1&color=fff",
+    "tier": "bronze",
+    "website": "https://trailrunningco.com",
+    "contact": "hello@trailrunningco.com"
+  }
+]
+

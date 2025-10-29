@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Boys Gotta Run 5K",
+    "date": "2024-03-15T08:00:00Z",
+    "location": "Central Park, NYC",
+    "participantsCount": 42,
+    "type": "race",
+    "status": "upcoming"
+  },
+  {
+    "id": 2,
+    "name": "Fall Track Camp",
+    "date": "2024-09-20T09:00:00Z",
+    "location": "Regional Track Facility",
+    "participantsCount": 28,
+    "type": "training",
+    "status": "upcoming"
+  },
+  {
+    "id": 3,
+    "name": "Spring Marathon Prep",
+    "date": "2024-04-10T07:00:00Z",
+    "location": "Riverside Trail",
+    "participantsCount": 35,
+    "type": "training",
+    "status": "upcoming"
+  }
+]
+

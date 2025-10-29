@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Johnson",
+    "weeklyMileage": 28.5,
+    "averagePace": "7:15",
+    "photoURL": "https://ui-avatars.com/api/?name=Marcus+Johnson&background=2e004f&color=fff",
+    "lastActive": "2024-01-15T10:30:00Z",
+    "badges": ["Distance Champion", "Consistency King"],
+    "totalRuns": 45,
+    "streak": 12
+  },
+  {
+    "id": 2,
+    "name": "Emily Chen",
+    "weeklyMileage": 35.2,
+    "averagePace": "8:00",
+    "photoURL": "https://ui-avatars.com/api/?name=Emily+Chen&background=ff6600&color=fff",
+    "lastActive": "2024-01-14T18:45:00Z",
+    "badges": ["Speed Demon", "Early Bird"],
+    "totalRuns": 52,
+    "streak": 8
+  },
+  {
+    "id": 3,
+    "name": "David Rodriguez",
+    "weeklyMileage": 22.8,
+    "averagePace": "9:30",
+    "photoURL": "https://ui-avatars.com/api/?name=David+Rodriguez&background=6366f1&color=fff",
+    "lastActive": "2024-01-13T07:20:00Z",
+    "badges": ["Rising Star"],
+    "totalRuns": 18,
+    "streak": 5
+  },
+  {
+    "id": 4,
+    "name": "Sarah Williams",
+    "weeklyMileage": 31.7,
+    "averagePace": "7:45",
+    "photoURL": "https://ui-avatars.com/api/?name=Sarah+Williams&background=ec4899&color=fff",
+    "lastActive": "2024-01-15T06:15:00Z",
+    "badges": ["Consistency King", "Trail Blazer"],
+    "totalRuns": 38,
+    "streak": 15
+  },
+  {
+    "id": 5,
+    "name": "James Thompson",
+    "weeklyMileage": 19.3,
+    "averagePace": "10:15",
+    "photoURL": "https://ui-avatars.com/api/?name=James+Thompson&background=059669&color=fff",
+    "lastActive": "2024-01-12T16:30:00Z",
+    "badges": [],
+    "totalRuns": 12,
+    "streak": 3
+  }
+]
+
